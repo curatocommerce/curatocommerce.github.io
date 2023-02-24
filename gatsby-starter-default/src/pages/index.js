@@ -32,7 +32,7 @@ const IndexPage = () => (
   <Layout>
     <ThemeProvider theme={theme}>
       <Grid container
-            sx={{ flexDirection: { xs: "column", lg: "row"} }}
+            sx={{ flexDirection: { xs: "row" } }}
             spacing={2}
             alignItems="center"
             style={{ height: '100vh' }}
