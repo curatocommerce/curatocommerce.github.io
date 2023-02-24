@@ -38,11 +38,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: var(--color-text);
-  font-family: "Helvetica Neue";
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
-  background-color: rgb(239, 239, 239);
+  background-color: #EEEEEE;
 }
 
 /* 
@@ -97,6 +96,9 @@ h1 {
   padding: 0;
   line-height: var(--line-height-dense);
   letter-spacing: -0.01em;
+}
+h2, h3 {
+  color: #7c4dff
 }
 h1 > b {
   color: var(--color-primary);

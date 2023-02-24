@@ -43,11 +43,12 @@ module.exports = {
       resolve: `gatsby-omni-font-loader`,
       options: {
         enableListener: true,
-        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        preconnect: [`https://fonts.gstatic.com`],
         web: [
           {
-            name: `Helvetica Neue`,
-            file: `https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;600;700&display=swap`,
+            name: `Lato`,
+            variable: true,
+            styles: ["300", "400", "700"]
           },
         ],
       },

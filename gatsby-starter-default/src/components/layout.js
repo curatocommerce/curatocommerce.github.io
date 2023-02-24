@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: `100%`,
-          padding: `var(--size-gutter)`,
+          padding: `0`,
         }}
       >
         <main>{children}</main>
